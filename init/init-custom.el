@@ -32,7 +32,7 @@
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (exec-path-from-shell flycheck-rust racer pos-tip cargo rust-mode toml-mode gotest f go-errcheck monokai-theme zenburn-theme markdown-mode window-numbering emmet-mode web-mode yaml-mode terraform-mode hcl-mode auto-yasnippet yasnippet session inf-ruby rubocop rails-log-mode enh-ruby-mode ruby-refactor rspec-mode rbenv flymake-puppet flymake-easy puppet-mode go-projectile go-guru go-rename go-eldoc grizzl projectile powerline php-mode smartparens neotree multi-term diff-hl yagist magit magit-popup git-commit with-editor async lua-mode coffee-mode js3-mode smex quelpa ido-vertical-mode ido-ubiquitous groovy-mode flycheck flx expand-region dockerfile-mode deft company-go anzu)))
+    (eyebrowse exec-path-from-shell flycheck-rust racer pos-tip cargo rust-mode toml-mode gotest f go-errcheck monokai-theme zenburn-theme markdown-mode window-numbering emmet-mode web-mode yaml-mode terraform-mode hcl-mode auto-yasnippet yasnippet session inf-ruby rubocop rails-log-mode enh-ruby-mode ruby-refactor rspec-mode rbenv flymake-puppet flymake-easy puppet-mode go-projectile go-guru go-rename go-eldoc grizzl projectile powerline php-mode smartparens neotree multi-term diff-hl yagist magit magit-popup git-commit with-editor async lua-mode coffee-mode js3-mode smex quelpa ido-vertical-mode ido-ubiquitous groovy-mode flycheck flx expand-region dockerfile-mode deft company-go anzu)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(session-use-package t nil (session))
  '(timesheet-invoice-number 106)

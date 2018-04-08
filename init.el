@@ -54,7 +54,6 @@
         init-toml
         init-yaml
         init-web
-        init-winnumbers
 		 ))
 (require 'server)
 (unless (server-running-p)
