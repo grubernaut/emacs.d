@@ -9,11 +9,11 @@
 (add-hook 'term-mode-hook (lambda()
         (setq yas-dont-activate t)))
 
-;; Run ZSH instead of bash
-(setq multi-term-program "/bin/zsh")
+;; Run TCSH instead of bash
+(setq multi-term-program "/usr/local/bin/tcsh")
 
 ;; ANSI-TERM
-(setq explicit-shell-file-name "/bin/zsh" )
+(setq explicit-shell-file-name "/usr/local/bin/tcsh" )
 
 (require 'term)
 (defun visit-ansi-term ()
@@ -25,7 +25,7 @@
   (interactive)
   (let ((is-term (string= "term-mode" major-mode))
         (is-running (term-check-proc (buffer-name)))
-        (term-cmd "/bin/zsh")
+        (term-cmd "/usr/local/bin/tcsh")
         (anon-term (get-buffer "*ansi-term*")))
     (if is-term
         (if is-running
