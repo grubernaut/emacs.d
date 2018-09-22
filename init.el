@@ -23,17 +23,17 @@
         init-crontab
         init-deft
         init-defuns
-        ;init-dired
         init-environment
         init-expand-region
         init-flycheck
       	init-go
       	init-haskell
-	init-ido
+      	init-ido
         init-js
         init-keymaps
         init-lua
         init-magit
+        init-mail
         init-markdown
         init-modeline
         init-multiterm
