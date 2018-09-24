@@ -4,4 +4,4 @@
                             (set-fill-column 80)
                             ))
 
-(add-to-list 'auto-mode-alist '("^neomutt\\" . mail-mode))
+(add-to-list 'auto-mode-alist '("*neomutt\\'" . mail-mode))
