@@ -45,6 +45,7 @@
         init-rust
         init-session
         init-settings
+        init-shell
         init-snippets
         init-tf
         init-toml

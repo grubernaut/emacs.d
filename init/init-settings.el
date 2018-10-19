@@ -11,6 +11,7 @@
 
 (setq auto-save-default nil)
 (setq-default tab-width 2)
+(setq tab-width 2)
 (setq-default indent-tabs-mode nil)
 (setq indent-line-function 'insert-tab)
 (setq inhibit-startup-message t)

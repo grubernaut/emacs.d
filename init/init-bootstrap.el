@@ -8,7 +8,7 @@
 (setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
 
 ;; *BSD love
-(setq-default quelpa-build-tar-executable "/usr/local/bin/gtar")
+;(setq-default quelpa-build-tar-executable "/usr/local/bin/gtar")
 
 (package-initialize)
 (if (require 'quelpa nil t)

@@ -16,3 +16,4 @@
 (define-key rust-mode-map (kbd "TAB") #'company-indent-or-complete-common)
 (setq rust-format-on-save t)
 (setq company-tooltip-align-annotations t)
+(setq rust-indent-offset 2)
