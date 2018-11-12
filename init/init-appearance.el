@@ -12,4 +12,5 @@
 ;(load-theme 'wilson)
 ;(load-theme 'misterioso)
 (setq base16-theme-256-color-source "colors")
-(load-theme 'base16-eighties t)
+;(load-theme 'base16-gruvbox-dark-soft t)
+(load-theme 'base16-tomorrow-night t)
