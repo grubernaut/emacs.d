@@ -21,6 +21,7 @@
       	init-clojure
         init-completion
         init-crontab
+        init-csharp
         init-deft
         init-defuns
         init-environment
