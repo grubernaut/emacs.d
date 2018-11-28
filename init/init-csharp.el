@@ -12,11 +12,11 @@
   (company-mode)
   (flycheck-mode)
 
-  (setq indent-tabs-mode nil)
+  ;(setq indent-tabs-mode nil)
   (setq c-syntactic-indentation t)
   (c-set-style "ellemtel")
   (setq truncate-lines t)
-  (setq c-basic-offset 2)
-  (setq tab-width 2))
+  (setq c-basic-offset 4)
+  (setq tab-width 4))
 
 (add-hook 'csharp-mode-hook 'my-csharp-hook t)
